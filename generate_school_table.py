@@ -14,7 +14,7 @@ electricity: Y/N
 
 dfl_s = []
 
-df_s_cols_original = pd.read_html(os.path.join("original_data", "1.xls"), skiprows=1)[1]
+df_s_cols_original = pd.read_html(os.path.join("original_data", "main_dataset", "1.xls"), skiprows=1)[1]
 df_s_cols_original = df_s_cols_original.columns
 df_s_cols_types = ['int', 'str', 'str', 'str', 'str',
                    'str', 'str', 'str', 'str', 'str',
@@ -25,7 +25,7 @@ df_s_cols_types = ['int', 'str', 'str', 'str', 'str',
 conv = dict(zip(df_s_cols_original, df_s_cols_types))
 
 for i in range(1,43):
-    current_district = pd.read_html(os.path.join("original_data", str(i)+".xls"), skiprows=1)[1]
+    current_district = pd.read_html(os.path.join("original_data", "main_dataset", str(i)+".xls"), skiprows=1)[1]
     current_district["old.area.code"] = str(i)
     dfl_s.append(current_district)
 
