@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 df_s = pd.read_csv(os.path.join('data', 'school_table.csv'), encoding='utf_8')
-df_a = pd.read_csv(os.path.join('area_conversion_list.csv'), encoding='utf_8')
+df_a = pd.read_csv(os.path.join('refs', 'area_conversion_list.csv'), encoding='utf_8')
 
 list_of_tuples = list(tuple(x) for x in list(df_a[['old.area.code', 'province.code', 'new.area.code']].to_numpy()))
 conversion_dict = {(x,y):z for (x,y,z) in list_of_tuples}
