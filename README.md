@@ -54,6 +54,10 @@ Funding Provider (employer): Office of the Education Council (ONEC), Thailand.
 
 Contract Number 18/2564, signed 28 June, 2564 B.E.
 
+## License
+
+MIT License. See LICENSE file for details.
+
 ## Disclaimer
 
 Kanazawa University does not have administrative oversight over this project and
