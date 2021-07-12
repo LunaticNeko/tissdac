@@ -58,11 +58,14 @@ Contract Number 18/2564, signed 28 June, 2564 B.E.
 
 Code is released under MIT License. See LICENSE file for details.
 
-Data was pulled from the Education Management Information System (EMIS), which
-is operated by the Office of the Basic Education Commission (OBEC), Ministry of
-Education. EMIS itself is maintained by Sumphan Phanphim, Specialist Analyst
-affiliated with Nongkhai Primary Educational Service Area Office 2. This dataset
-is not endorsed by officials at EMIS, OBEC, or Nongkhai PESA 2.
+School data was pulled from the Education Management Information System (EMIS),
+which is operated by the Office of the Basic Education Commission (OBEC),
+Ministry of Education. EMIS itself is maintained by Sumphan Phanphim, Specialist
+Analyst affiliated with Nongkhai Primary Educational Service Area Office 2. This
+dataset is not endorsed by officials at EMIS, OBEC, or Nongkhai PESA 2.
+
+Provice and district codes come from Bank of Thailand data. (C.N. attempted to
+find Ministry of Interior data, but could not find one.)
 
 ## Disclaimer
 
