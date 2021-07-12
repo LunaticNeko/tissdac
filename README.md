@@ -39,7 +39,7 @@ programmatically process from it.
 ## Author
 
 * Chawanat Nakasan, Kanazawa University [Corresponding Author]  
-  firstname@staff.kanazawa-u.ac.jp
+  firstname@staff.kanazawa-u.ac.jp (GitHub: @LunaticNeko)
 * Suthon Wongdaeng, Chandrakasem Rajabhat University
 * Nataya Nakasan, Chandrakasem Rajabhat University [Principal Investigator]
 
@@ -54,9 +54,15 @@ Funding Provider (employer): Office of the Education Council (ONEC), Thailand.
 
 Contract Number 18/2564, signed 28 June, 2564 B.E.
 
-## License
+## License & Legals
 
-MIT License. See LICENSE file for details.
+Code is released under MIT License. See LICENSE file for details.
+
+Data was pulled from the Education Management Information System (EMIS), which
+is operated by the Office of the Basic Education Commission (OBEC), Ministry of
+Education. EMIS itself is maintained by Sumphan Phanphim, Specialist Analyst
+affiliated with Nongkhai Primary Educational Service Area Office 2. This dataset
+is not endorsed by officials at EMIS, OBEC, or Nongkhai PESA 2.
 
 ## Disclaimer
 
